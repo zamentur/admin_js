@@ -1866,4 +1866,12 @@ $(document).ready(function () {
         $('#slideTo').css('display', 'none');
         $('#slider-container').width(2*$('#slider').width() +'px').removeClass('move').css('margin-left', '0px');
     });
+
+    $(document).ready(function() {
+        console.log("pouet");
+        $('[data-slidepanel]').slidepanel({
+            orientation: 'right',
+            mode: 'push'
+        });
+    });
 });
