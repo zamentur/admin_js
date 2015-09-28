@@ -39,6 +39,7 @@ gulp.task('js', function() {
             'js/vendor/sammy.json.js',
             'js/vendor/sammy.storage.js',
             'js/vendor/bootstrap.min.js',
+            'js/vendor/jquery.slidepanel.js',
             'js/y18n.js',
             'js/app.js'
         ])
