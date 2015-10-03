@@ -19,9 +19,10 @@
             </label>
         {{/each}}
         {{#each apps}}
-            <label for="{{id}}" class="list-group-item">
-                <span class="pull-right"><input type="checkbox" id="{{id}}" name="apps" value="{{id}}" checked></span>
-                <h2 class="list-group-item-heading">{{name}} <small>{{id}}</small></h2>
+            <label for="{{@key}}" class="list-group-item">
+                <span class="pull-right"><input type="checkbox" id="{{@key}}" name="apps" value="{{@key}}" checked></span>
+                <h2 class="list-group-item-heading">{{name}} <small>{{@key}}</small></h2>
+                <p class="list-group-item-text">{{description}}</p>
             </label>
         {{/each}}
         {{^items}}
