@@ -466,6 +466,28 @@ app = Sammy('#main', function (sam) {
     });
 
 
+    sam.get('#/yoloupgrade', function (c) {
+        c.confirm(
+            y18n.t('system_upgrade_btn'),
+            y18n.t('confirm_upgrade', []),
+            function(){
+                c.api('/yoloupgrade', function(data) {
+                    c.flash('success', y18n.t('success_upgrade'));
+                    if (store.get('path')) {
+                        c.redirect(store.get('path'));
+                    } else {
+                        store.clear('slide');
+                        c.redirect('#/');
+                    }
+                }, 'POST', {}, false);
+            },
+            function(){
+                store.clear('slide');
+                c.redirect('#/');
+            }
+        );
+
+    });
 
     /**
      * Login

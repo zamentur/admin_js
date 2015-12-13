@@ -1,3 +1,13 @@
+<div class="alert alert-warning" role="alert">
+    <div class="actions-group">
+        <a href="#/yoloupgrade" class="btn btn-success slide">
+            <span class="fa-plus"></span> {{t 'system_upgrade_btn'}}
+        </a>
+    </div>
+    {{t 'new_version_available'}}
+    <br />
+    {{t 'new_version_available_warning'}}
+</div>
 <div class="list-group">
     <a href="#/users" class="list-group-item slide clearfix">
         <span class="pull-right fa-chevron-right"></span>

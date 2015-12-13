@@ -242,5 +242,10 @@
     "user_new_mail": "newmail@mydomain.org",
     "user_new_forward": "newforward@myforeigndomain.org",
     "user_mailbox_quota": "Mailbox quota",
-    "mailbox_quota_description": "Mailbox quota must be a size with b/k/M/G/T suffix or 0 to disable the quota."
+    "mailbox_quota_description": "Mailbox quota must be a size with b/k/M/G/T suffix or 0 to disable the quota.",
+
+    "new_version_available" : "A new version is available.",
+    "new_version_available_warning": "This upgrade could take until 20 minutes. Don't forget to make backup before apply it.",
+    "confirm_upgrade" : "Are you sure you want upgrade to the new version ?",
+    "success_upgrade" : "The upgrade could take unit 20 minutes, you should refresh the page regularly."
 }

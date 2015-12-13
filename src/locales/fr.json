@@ -223,5 +223,9 @@
     "user_emailaliases": "Adresses supplémentaires",
     "user_emailforward": "Adresses de transfert",
     "user_new_mail": "nouvelle_adresse@domaine.org",
-    "user_new_forward": "nouveau_transfert@domainedistant.org"
+    "user_new_forward": "nouveau_transfert@domainedistant.org",
+    "new_version_available": "Une nouvelle version de YunoHost est disponible.",
+    "new_version_available_warning": "Cette mise à jour peut durer une vingtaine de minutes. N'oubliez pas de faire une sauvegarde avant cette mise à jour.",
+    "confirm_upgrade" : "Etes vous sure de vouloir faire la mise à jour ?",
+    "success_upgrade" : "La mise à jour devrait prendre une vingtaine de minutes, vous devriez rafraichir la page régulièrement."
 }
